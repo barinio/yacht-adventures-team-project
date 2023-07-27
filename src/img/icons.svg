@@ -9,12 +9,15 @@
     <symbol id="icon-facebook" viewBox="0 0 18 32">
       <path d="M14.851 5.602h2.924V.655a40.727 40.727 0 0 0-4.262-.218c-4.231 0-7.124 2.582-7.124 7.311v4.076H1.613v5.538h4.776v14.187h5.724V17.362h4.76l.716-5.538h-5.476V8.293c0-1.633.436-2.691 2.738-2.691z"/>
     </symbol>
-    <symbol id="icon-ellipse-slider" viewBox="0 0 32 32">
-      <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z"/>
-      <path stroke-width="2.462" d="M30.769 16c0 8.157-6.612 14.769-14.769 14.769S1.231 24.157 1.231 16 7.843 1.231 16 1.231 30.769 7.843 30.769 16z"/>
+    <symbol id="icon-ellipse-multicolor" viewBox="0 0 32 32">
+      <path fill="#88b3b9" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" style="fill:var(--color1, #88b3b9)"/>
+      <path fill="none" stroke="#93abae" stroke-width="2.462" d="M30.769 16c0 8.157-6.612 14.769-14.769 14.769S1.231 24.157 1.231 16 7.843 1.231 16 1.231 30.769 7.843 30.769 16z" style="stroke:var(--color2, #93abae)"/>
+    </symbol>
+    <symbol id="icon-ellipse-gray" viewBox="0 0 32 32">
+      <path d="M23.579 14.316c0 6.046-4.901 10.947-10.947 10.947S1.685 20.362 1.685 14.316c0-6.046 4.901-10.947 10.947-10.947S23.579 8.27 23.579 14.316z"/>
     </symbol>
     <symbol id="icon-close-mark" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.733" d="M24 8 8 24M8 8l16 16"/>
+      <path fill="none" stroke="#f6f5ef" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M24 8 8 24M8 8l16 16" style="stroke:var(--color1, #f6f5ef)"/>
     </symbol>
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path d="M2.667 7.993c0-.733.595-1.327 1.327-1.327h10.68a1.326 1.326 0 0 1 0 2.654H3.994a1.326 1.326 0 0 1-1.327-1.327zm0 8.007c0-.733.595-1.327 1.327-1.327h24.013a1.326 1.326 0 0 1 0 2.654H3.994A1.326 1.326 0 0 1 2.667 16zm1.326 6.68a1.326 1.326 0 0 0 0 2.654h16.013a1.326 1.326 0 0 0 0-2.654H3.993z"/>
