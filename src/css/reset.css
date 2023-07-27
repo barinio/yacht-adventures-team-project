@@ -47,9 +47,5 @@ label {
 .container {
 	min-width: 320px;
 	margin: 0 auto;
-	padding: 0 15px;
-}
-
-.section {
-	padding: 96px 0;
+	padding: 0 20px;
 }
