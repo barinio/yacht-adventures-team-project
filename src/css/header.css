@@ -24,14 +24,12 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 @media screen and (min-width: 768px) {
     .header-nav{
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding: 32px 0;
     }
 }
 
@@ -88,3 +86,87 @@
 /*
     End of Header CSS
 */
+/* Popup menu*/
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /*padding: 32px;*/
+    background-color: var(--dark-blue);
+    z-index: 999;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+       /* background:
+                radial-gradient(80vmax 50vmax at 110% -10%,
+                    hsl(0, 0%, 8%) 0%,
+                    hsl(195, 5%, 84%) 50%,
+                    hsl(240, 5%, 22%) 95%),
+                radial-gradient(90vmax 50vmax at 50vmax 50vmax,
+                    hsl(256, 100%, 3%) 0%,
+                    hsl(240, 27%, 94%) 95%) 
+                hsl(240, 80%, 10%); */
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    /* position: absolute; */
+    top: 24px;
+    right: 24px;
+    color: var(--white-text);
+}
+
+.mobile-menu {
+    padding: 0;
+    margin: 140px auto 0 auto;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.mobile-menu .link {
+    display: block;
+    padding: 0;
+    color: var(--white-text);
+    text-decoration: none;
+    text-align: center;
+}
