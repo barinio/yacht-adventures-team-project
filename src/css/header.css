@@ -1,98 +1,92 @@
 /*
     Header CSS
 */
-.header {}
 
-/* Delete the next definition after it is done in generic styles.css */
-.container{
-       /* outline: 1px solid red;*/
-}
-@media screen and (min-width: 768px){
-    .container {
-        padding: 0 32px;
-        max-width: 768px;
-    }
+@media screen and (min-width: 768px) {
+	.container {
+		padding: 0 32px;
+		max-width: 768px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
+	.container {
+		max-width: 1280px;
+	}
 }
 
 .header-container {
-    padding-top: 24px;
+	padding-top: 24px;
 }
 @media screen and (min-width: 768px) {
-    .header-container {
-       padding-top: 33px;
-    }
+	.header-container {
+		padding-top: 33px;
+	}
 }
 
 @media screen and (min-width: 1280) {
-    .header-container {
-        
-    }
+	.header-container {
+	}
 }
 
 .header-nav {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
-    .header-nav{
-        padding-bottom: 33px;
-    }
+	.header-nav {
+		padding-bottom: 33px;
+	}
 }
 
 .header-logo {
-    color: var(--white-text);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 8px
+	color: var(--white-text);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 118%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
 
 .header-menu-link {
-    color: var(--white-text);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+	color: var(--white-text);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 118%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .mobile-menu-toggle-icon {
-    fill: var(--white-text);
-    background-color: transparent;
-    border: none;
+	fill: var(--white-text);
+	background-color: transparent;
+	border: none;
 }
-@media screen and (min-width:768px){
-  .mobile-menu-toggle-icon {
-    display: none;
-  }
+@media screen and (min-width: 768px) {
+	.mobile-menu-toggle-icon {
+		display: none;
+	}
 }
 
 .header-nav-list {
-    display: none;
+	display: none;
 }
-@media screen and (min-width:768px) {
-.header-nav-list {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-}
+@media screen and (min-width: 768px) {
+	.header-nav-list {
+		display: flex;
+		gap: 24px;
+		align-items: center;
+	}
 }
 .separator {
-    width: 100%;
-    height: 1px;
-    background-color: rgba(246, 245, 239, 0.20)
+	width: 100%;
+	height: 1px;
+	background-color: rgba(246, 245, 239, 0.2);
 }
 
 /*
