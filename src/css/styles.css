@@ -33,3 +33,45 @@ body {
 	color: var(--white-text);
 	overflow-x: hidden;
 }
+.container {
+	min-width: 320px;
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: DM Sans, sans-serif;
+	color: var(--white-text);
+	background-color: var(--dark-blue);
+}
+
+img {
+	display: block;
+}
+.list {
+	list-style: none
+}
+/* End of reset */
