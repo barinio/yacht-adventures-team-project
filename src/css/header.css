@@ -78,10 +78,9 @@
 	background-color: rgba(246, 245, 239, 0.2);
 }
 
-/*
-    End of Header CSS
-*/
-/* Popup menu*/
+/* End of Header CSS */
+
+/* Popup menu */
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -115,7 +114,6 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    /*padding: 32px;*/
     background-color: var(--dark-blue);
     z-index: 999;
 
@@ -136,7 +134,6 @@
 }
 
 .menu-container .menu-toggle {
-    /* position: absolute; */
     top: 24px;
     right: 24px;
     color: var(--white-text);
