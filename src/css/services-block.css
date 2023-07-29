@@ -1,0 +1,17 @@
+.services-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.services-item {
+	position: relative;
+}
+.services-btn {
+	position: absolute;
+	padding: 14px 28px;
+	border-radius: 60px;
+	border-style: none;
+	z-index: 1;
+	left: 24px;
+	bottom: 24px;
+}
