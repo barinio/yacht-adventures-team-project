@@ -73,7 +73,7 @@
   width: 150px;
   height: 150px;
   top: -33px;
-  left: 139px;
+  left: 117px;
 
   background-color: #a6a9b2;
   opacity: 0.3;
@@ -81,7 +81,7 @@
 
 @media (min-width: 375px) and (max-width: 767px) {
   .yachts-block__gradient-small {
-    left: 190px;
+    left: 173px;
   }
 }
 
@@ -107,7 +107,7 @@
     width: 290px;
     height: 290px;
     border-radius: 304px;
-    left: 396px;
+    left: 384px;
     top: -81px;
   }
 }
@@ -229,17 +229,7 @@
 .yachts-block__card-list-buttons {
   display: flex;
   align-items: center;
-
-  /* 
-  
-  
-  
-  
-  
-  */
-  /* position: inherit; */
-  /* position: relative; */
-  /* z-index: 2; */
+  justify-content: center;
 }
 
 .yachts-block__button-prev,
