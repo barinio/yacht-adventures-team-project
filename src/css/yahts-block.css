@@ -4,12 +4,31 @@
   position: relative;
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
+  .yachts-block {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .yachts-block {
+    max-width: 1280px;
+  }
+}
+
 .yachts-block__bg-vector {
-  width: 100%;
+  /* width: 100%;
   height: calc(100% + 483px);
   opacity: 0.1;
+ */
 
-  background-image: url('/img/yahts-block/yachts-block-vector.svg');
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/src/img/icons.svg#');
+  background-repeat: no-repeat;
+  transform: rotate(-7.51deg);
+  opacity: 0.15;
+
   left: 0;
   top: 81px;
   position: absolute;
@@ -30,54 +49,93 @@
   }
 }
 
-/*  */
-.yachts-block__gradient {
-  background-image: radial-gradient(
-    circle closest-corner at 38% 34%,
-    #91afba,
-    #11131f
-  );
-  width: 100%;
-  height: 447px;
-  z-index: 1;
-  /* z-index: -1; */
+.yachts-block__gradient-big,
+.yachts-block__gradient-small {
   position: absolute;
-  left: 0px;
-  top: -69px;
-  opacity: 0.18;
+  filter: blur(100px);
+  transform: rotate(-44.916deg);
 }
 
-/* width: 255px;
-  height: 255px;
-  transform: rotate(-44.916deg);
+.yachts-block__gradient-big {
+  /* width: 255px;  */
+  /* height: 255px; */
+  width: 200px;
+  height: 200px;
+  top: -25px;
+  left: -19px;
+  background-color: #91afba;
+  opacity: 0.6;
+}
 
-  fill: #91afba;
-  opacity: 0.6000000238418579;
-  filter: blur(100px); */
+.yachts-block__gradient-small {
+  /* width: 195px; */
+  /* height: 195px; */
+  width: 150px;
+  height: 150px;
+  top: -33px;
+  left: 139px;
 
-/* background-image: radial-gradient(
-    circle closest-corner at 10% 65%,
-    #91afba,
-    #ffffff
-  ); */
+  background-color: #a6a9b2;
+  opacity: 0.3;
+}
 
-/* background: radial-gradient(
-    circle,
-    rgba(145, 175, 186, 1) 35%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
-/* } */
-/*  */
+@media (min-width: 375px) and (max-width: 767px) {
+  .yachts-block__gradient-small {
+    left: 190px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1279px) {
-  .yachts-block {
-    max-width: 768px;
+  .yachts-block__gradient-big,
+  .yachts-block__gradient-small {
+    transform: rotate(-44.094deg);
+  }
+
+  .yachts-block__gradient-big {
+    /* width: 399px;
+    height: 399px; */
+    width: 370px;
+    height: 370px;
+    border-radius: 399px;
+    left: 59px;
+    top: -52px;
+  }
+
+  .yachts-block__gradient-small {
+    /* width: 304px;
+    height: 304px; */
+    width: 290px;
+    height: 290px;
+    border-radius: 304px;
+    left: 396px;
+    top: -81px;
   }
 }
 
 @media (min-width: 1280px) {
-  .yachts-block {
-    max-width: 1280px;
+  .yachts-block__gradient-big,
+  .yachts-block__gradient-small {
+    transform: rotate(-45.074deg);
+  }
+
+  .yachts-block__gradient-big {
+    /* width: 414px;
+    height: 414px; */
+    width: 390px;
+    height: 390px;
+    border-radius: 414px;
+    left: 264px;
+    top: -38px;
+  }
+
+  .yachts-block__gradient-small {
+    /* width: 316px;
+    height: 316px; */
+    width: 300px;
+    height: 300px;
+    border-radius: 316px;
+    left: 688px;
+    top: -47px;
   }
 }
 
@@ -145,8 +203,7 @@
   font-weight: 700;
   line-height: 110%;
   letter-spacing: -0.63px;
-  /*  */
-  background-color: var(--dark-blue);
+  user-select: none;
 
   transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -180,9 +237,9 @@
   
   
   */
-  position: inherit;
+  /* position: inherit; */
   /* position: relative; */
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .yachts-block__button-prev,
@@ -194,6 +251,7 @@
   border: 1px solid var(--white-text);
   background-color: var(--dark-blue);
   fill: var(--white-text);
+  user-select: none;
 
   transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
