@@ -1,5 +1,8 @@
 .yachts-block {
   max-width: 375px;
+
+  /*  */
+  position: relative;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -19,9 +22,12 @@
   width: 1280px;
   background-image: url(/img/looper-group.svg);
   opacity: 0.12;
-  left: 0;
-  top: 206px;
+  /* left: 0;
+  top: 1691px; */
+  left: -32px;
+  top: 121px;
   position: absolute;
+  /* position: relative; */
   z-index: -1;
 }
 
@@ -34,6 +40,7 @@
 .yachts-block__gradient-big,
 .yachts-block__gradient-small {
   position: absolute;
+  /* position: relative; */
   filter: blur(100px);
   transform: rotate(-44.916deg);
 }
@@ -42,9 +49,9 @@
   width: 200px;
   height: 200px;
   top: 74px;
+  /* top: 331px; */
   left: -19px;
-  background-color: var(--ellipse);
-  opacity: 0.6;
+  background-color: rgba(145, 175, 186, 0.6);
 }
 
 .yachts-block__gradient-small {
@@ -52,8 +59,7 @@
   height: 150px;
   top: 106px;
   left: 135px;
-  background-color: #a6a9b2;
-  opacity: 0.3;
+  background-color: rgb(166, 169, 178, 0.3);
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -110,8 +116,7 @@
 
 .yachts-block__container {
   max-width: 310px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-bottom: 80px;
 }
 
@@ -134,7 +139,6 @@
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -1.62px;
-
   margin-bottom: 40px;
 }
 
@@ -161,17 +165,17 @@
 .yachts-block__link {
   width: 131px;
   height: 43px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
   border-radius: 60px;
   border: 1px solid var(--white-text);
-
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 110%;
-  letter-spacing: -0.63px;
   user-select: none;
 
   transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -201,14 +205,11 @@
   justify-content: center;
 }
 
-.yachts-block__button-prev,
-.yachts-block__button-next,
-.yachts-block__button-prev-desc,
-.yachts-block__button-next-desc {
+.y-b__buttons {
   height: 36px;
   border-radius: 60px;
   border: 1px solid var(--white-text);
-  background-color: var(--dark-blue);
+  background-color: inherit;
   fill: var(--white-text);
   user-select: none;
 
@@ -217,21 +218,14 @@
     fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.yachts-block__button-prev:hover,
-.yachts-block__button-prev:focus,
-.yachts-block__button-next:hover,
-.yachts-block__button-next:focus,
-.yachts-block__button-prev-desc:hover,
-.yachts-block__button-prev-desc:focus,
-.yachts-block__button-next-desc:hover,
-.yachts-block__button-next-desc:focus {
+.y-b__buttons:hover,
+.y-b__buttons:focus {
   background-color: var(--light-green);
   border-color: var(--blue-gray);
   fill: var(--blue-gray);
 }
 
-.yachts-block__button-prev,
-.yachts-block__button-next {
+.y-b__buttons-mob {
   width: 46px;
 }
 
@@ -244,23 +238,20 @@
 }
 
 @media (min-width: 768px) {
-  .yachts-block__button-prev,
-  .yachts-block__button-next {
+  .y-b__buttons-mob {
     width: 50px;
   }
 }
 
 @media (min-width: 1280px) {
-  .yachts-block__button-prev-desc,
-  .yachts-block__button-next-desc {
+  .y-b__buttons-desc {
     width: 50px;
   }
 }
 
 /* ???? */
 @media (max-width: 1279px) {
-  .yachts-block__button-prev-desc,
-  .yachts-block__button-next-desc {
+  .y-b__buttons-desc {
     display: none;
   }
 }
@@ -350,7 +341,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin-bottom: 24px;
 }
 
