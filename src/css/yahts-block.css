@@ -43,7 +43,7 @@
   height: 200px;
   top: 74px;
   left: -19px;
-  background-color: #91afba;
+  background-color: var(--ellipse);
   opacity: 0.6;
 }
 
