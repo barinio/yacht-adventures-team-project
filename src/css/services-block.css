@@ -1,0 +1,27 @@
+.main {
+	width: 323px;
+	height: 323px;
+	transform: rotate(-44.916deg);
+	flex-shrink: 0;
+	border-radius: 323px;
+	opacity: 0.6000000238418579;
+	background: linear-gradient(45deg, #91afba, #ffffff);
+	filter: blur(100px);
+}
+.service-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.service-item {
+	position: relative;
+}
+.service-btn {
+	position: absolute;
+	padding: 14px 28px;
+	border-radius: 60px;
+	border-style: none;
+	z-index: 1;
+	left: 24px;
+	bottom: 24px;
+}
