@@ -209,28 +209,6 @@
 
 /* BACK TO TOP STYLES */
 
-.container {
-  position: relative;
-  display: block;
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-  height: 100vh;
-}
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 767px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
 .progress-wrap {
   position: fixed;
   right: 20px;
