@@ -64,7 +64,7 @@
 .footer-container {
   max-width: 375px;
   padding-top: 40px;
-  /* border-top: 1px solid rgba(246, 245, 239, 0.20); */
+
 }
 
 @media only screen and (min-width: 768px) {
