@@ -2,6 +2,17 @@
     Header CSS
 */
 
+<<<<<<< HEAD
+.header-container {
+	padding-top: 24px;
+}
+@media screen and (min-width: 768px) {
+	.header-container {
+		padding-top: 33px;
+	}
+}
+
+=======
 @media screen and (min-width: 768px) {
 	.container {
 		padding: 0 32px;
@@ -15,30 +26,18 @@
 	}
 }
 
-.header-container {
-	padding-top: 24px;
-}
-@media screen and (min-width: 768px) {
-	.header-container {
-		padding-top: 33px;
-	}
-}
 
-/* @media screen and (min-width: 1280) {
-	.header-container {
-	}
-} */
-
+>>>>>>> 844ff3b66e44388b7016ac83a070352756f19a8e
 .header-nav {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
 }
 
 @media screen and (min-width: 768px) {
-	.header-nav {
-		padding-bottom: 33px;
-	}
+    .header-nav{
+        padding: 32px 0;
+    }
 }
 
 .header-logo {
@@ -54,12 +53,14 @@
 }
 
 .header-menu-link {
-	color: var(--white-text);
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 118%;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
+    color: var(--white-text);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .mobile-menu-toggle-icon {
@@ -89,6 +90,86 @@
 	background-color: rgba(246, 245, 239, 0.2);
 }
 
-/*
-    End of Header CSS
-*/
+/* End of Header CSS */
+
+/* Popup menu */
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-blue);
+    z-index: 999;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    background:
+            radial-gradient(279px 279px at -5% 80%,
+                hsla(196, 23%, 65%, 0.6) -25%,
+                hsla(231, 29%,9%, 0) 120%),
+            radial-gradient(279px 279px at 85% 105%,
+                rgba(148, 157, 173, 0.6) -25%,
+                hsla(231, 29%, 9%, 0) 140%)
+            var(--dark-blue);
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    top: 24px;
+    right: 24px;
+    color: var(--white-text);
+}
+
+.mobile-menu {
+    padding: 0;
+    margin: 140px auto 0 auto;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.mobile-menu .link {
+    display: block;
+    padding: 0;
+    color: var(--white-text);
+    text-decoration: none;
+    text-align: center;
+}
