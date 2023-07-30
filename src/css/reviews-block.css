@@ -224,7 +224,7 @@ body {
 
 }
 
-/* .slider-nav a:focus, :hover {
+.slider-nav a:hover {
 background-color: #88B3B9;
 box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.90) inset, 3px 3px 5px 0px rgba(213, 230, 245, 0.40) inset, 0px 0px 4px 0px rgba(46, 68, 87, 0.00) inset;
-} */
+} 
