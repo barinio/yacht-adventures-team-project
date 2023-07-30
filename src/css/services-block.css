@@ -1,12 +1,13 @@
-.services-list {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
-}
 .services-item {
 	position: relative;
 }
 .services-btn {
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--dark-blue);
+	line-height: 1.1;
+	letter-spacing: -0.045em;
+
 	position: absolute;
 	padding: 14px 28px;
 	border-radius: 60px;
@@ -14,4 +15,70 @@
 	z-index: 1;
 	left: 24px;
 	bottom: 24px;
+}
+.services-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+@media (max-width: 768px) {
+	.services-list {
+		align-items: center;
+	}
+}
+@media (min-width: 768px) {
+	.services-list {
+		gap: 32px;
+	}
+	.services-item:first-child img {
+		content: url(/img/services/tablet-img-diving.png);
+		width: 704px;
+	}
+	.services-item:nth-child(2) img {
+		content: url(/img/services/tablet-img-fishing.png);
+		width: 400px;
+	}
+	.services-item:last-child img {
+		content: url(/img/services/tablet-img-sunbathing.png);
+		width: 380px;
+	}
+	.services-item:nth-child(2) {
+		align-self: flex-end;
+	}
+	.services-btn {
+		left: 32px;
+	}
+	.services-item:last-child {
+		padding-left: 32px;
+		align-self: flex-start;
+	}
+	.services-item:last-child .services-btn {
+		left: 64px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.services-list {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 64px;
+	}
+	.services-item:first-child img {
+		content: url(/img/services/img-diving.png);
+		width: 712px;
+	}
+	.services-item:nth-child(2) img {
+		content: url(/img/services/img-fishing.png);
+		width: 440px;
+	}
+	.services-item:last-child img {
+		content: url(/img/services/img-sunbathing.png);
+		width: 436px;
+	}
+	.services-item:last-child {
+		padding-left: 372px;
+	}
+	.services-item:last-child .services-btn {
+		left: 404px;
+	}
 }
