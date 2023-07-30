@@ -2,6 +2,7 @@
   padding-top: 32px;
   padding-bottom: 16px;
 }
+
 @media only screen and (max-width: 767px) {
   .footer {
     padding-top: 20px;
@@ -70,6 +71,7 @@
 @media only screen and (min-width: 768px) {
   .footer-container {
     max-width: 768px;
+
     padding-top: 64px;
     display: flex;
     position: relative;
@@ -118,6 +120,7 @@
     line-height: 1.18;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .footer-navigation {
     margin-bottom: 40px;
@@ -137,6 +140,7 @@
   flex-direction: column;
   gap: 14px;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-nav-list {
     align-items: center;
@@ -198,6 +202,7 @@
   border-radius: 6px;
   border: 1px solid var(--light-gray);
   fill: #f6f5ef;
+
   transition: border-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }

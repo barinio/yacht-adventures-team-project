@@ -1,24 +1,36 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-modal-open]"),
-    closeModalBtn: document.querySelector("[data-modal-close]"),
-    modal: document.querySelector("[data-modal]"),
-    input1: document.getElementById("username"),
-    input2: document.getElementById("email"),
-    input3: document.getElementById("phone"),
-  };
+const form = document.querySelector('.rent-form');
+form.addEventListener('submit', onFormSubmit);
 
-  refs.openModalBtn.addEventListener("click", () => {
-    if (areInputsFilled()) {
-      toggleModal();
-    } else {
-      alert("Please complete the form.");
+const refs = {
+  openModalBtn: document.querySelector('[data-modal-open]'),
+  closeModalBtn: document.querySelector('[data-modal-close]'),
+  modal: document.querySelector('[data-modal]'),
+  formInputs: document.querySelectorAll('input[type="text"], textarea'),
+};
+
+function areInputsFilled() {
+  for (const input of refs.formInputs) {
+    if (input.value.trim() === '') {
+      return false;
     }
-  });
-
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-hidden");
   }
-})();
+  return true;
+}
+function toggleModal() {
+  refs.modal.classList.toggle('is-hidden');
+}
+refs.openModalBtn.addEventListener('click', e => {
+  e.preventDefault();
+  if (areInputsFilled()) {
+    toggleModal();
+    form.reset();
+  } else {
+    alert('Будь ласка, заповніть форму');
+  }
+});
+
+refs.closeModalBtn.addEventListener('click', toggleModal);
+
+function onFormSubmit() {
+  form.reset();
+}
