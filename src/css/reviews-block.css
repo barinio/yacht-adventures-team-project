@@ -1,4 +1,4 @@
-@media (min-width: 1128px) {
+@media (min-width: 1280px) {
 
     .reviews-text-container {
         display: flex;
@@ -105,7 +105,7 @@ body {
     }
 }
 
-@media (max-width: 1127px) {
+@media (max-width: 1279px) {
     .reviws-item:nth-child(n + 3) {
         display: none;
     }
@@ -120,7 +120,7 @@ body {
     }
 }
 
-@media (min-width: 1128px) {
+@media (min-width: 1280px) {
     .reviws-item {
         padding: 32px;
         max-width: 320px;
@@ -138,7 +138,7 @@ body {
     }
 }
 
-@media (min-width: 1128px) {
+@media (min-width: 1280px) {
     .customer-list {
         gap: 32px;
 
@@ -209,7 +209,7 @@ body {
 
 }
 
-@media (min-width: 1128px) {
+@media (min-width: 1280px) {
     .slider-nav {
         display: none;
     }
