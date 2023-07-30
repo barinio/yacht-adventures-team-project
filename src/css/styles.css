@@ -20,6 +20,8 @@
 	--light-green: #93abae;
 	--white-text: #f6f5ef;
 	--light-gray: rgba(246, 245, 239, 0.5);
+	--ellipse: #91afba;
+	--backdrop-color: #a6a9b23b;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -33,5 +35,3 @@ body {
 	color: var(--white-text);
 	overflow-x: hidden;
 }
-
-
