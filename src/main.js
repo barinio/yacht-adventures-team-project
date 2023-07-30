@@ -1,1 +1,1 @@
-// main.js
+import './js/modal-rent.js';
