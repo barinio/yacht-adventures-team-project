@@ -103,10 +103,12 @@
     color: var(--white-text);
     margin-bottom: 24px;
     outline: none;
+    font-size: 14px;
 }
 @media only screen and (min-width: 768px) {
   .rent-input {
     margin-bottom: 28px;
+    font-size: 16px;
   }
 }
 .rent-area {
@@ -119,10 +121,12 @@
     color: var(--white-text);
     margin-bottom: 24px;
     outline: none;
+    font-size: 14px;
 }
 @media only screen and (min-width: 768px) {
   .rent-area {
     margin-bottom: 32px;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1280px) {
