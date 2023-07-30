@@ -1,0 +1,230 @@
+@media (min-width: 1280px) {
+
+    .reviews-text-container {
+        display: flex;
+        gap: 446px;
+    }
+}
+
+.reviews-title {
+
+    color: #F6F5EF;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.08px;
+    margin-bottom: 24px;
+    max-width: 335px;
+}
+
+@media (max-width: 767px) {
+    .reviews-title {
+        margin: 0 auto 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .reviews-title {
+        max-width: 497px;
+        text-align: left;
+        font-size: 32px;
+    }
+}
+
+.reviews-another {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.08px;
+
+}
+
+@media (min-width: 768px) {
+    .reviews-another {
+        font-size: 32px;
+    }
+}
+
+.reviews-text {
+    color: #F6F5EF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+    letter-spacing: -0.28px;
+    margin-bottom: 40px;
+    max-width: 335px;
+}
+
+@media (max-width: 767px) {
+    .reviews-text {
+        margin: 0 auto 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .reviews-text {
+        font-size: 16px;
+        max-width: 273px;
+        letter-spacing: -0.32px;
+        margin-left: auto;
+        margin-bottom: 64px;
+
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.reviws-item {
+    display: flex;
+    padding: 24px;
+    max-width: 287px;
+    height: 160px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #1F212D;
+}
+
+@media (max-width: 767px) {
+    .reviws-item:nth-child(n + 2) {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .reviws-item {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1279px) {
+    .reviws-item:nth-child(n + 3) {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .reviws-item {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 280px;
+        height: 218px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .reviws-item {
+        padding: 32px;
+        max-width: 320px;
+
+    }
+}
+
+.customer-container {}
+
+@media (min-width: 768px) {
+    .customer-list {
+        display: flex;
+        gap: 16px;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1280px) {
+    .customer-list {
+        gap: 32px;
+
+    }
+}
+
+.customer-pict {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+
+}
+
+@media (min-width: 768px) {
+    .customer-pict {
+        margin-bottom: 24px;
+    }
+}
+
+.customer-review {}
+
+.customer-name {
+    color: #F6F5EF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    /* 17.6px */
+    letter-spacing: -0.72px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    .customer-name {
+        font-size: 18px;
+        letter-spacing: -0.81px;
+    }
+}
+
+.customer-feedback {
+    color: rgba(246, 245, 239, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: -0.24px;
+    height: 110px;
+}
+
+@media (min-width: 768px) {
+    .customer-feedback {
+
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+}
+
+.slider-nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 14px;
+
+}
+
+@media (min-width: 1280px) {
+    .slider-nav {
+        display: none;
+    }
+}
+
+.slider-nav a {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #1F212D;
+    filter: drop-shadow(2px 1px 3px rgba(24, 55, 91, 0.20));
+
+}
+
+/* .slider-nav a:focus, :hover {
+background-color: #88B3B9;
+box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.90) inset, 3px 3px 5px 0px rgba(213, 230, 245, 0.40) inset, 0px 0px 4px 0px rgba(46, 68, 87, 0.00) inset;
+} */
