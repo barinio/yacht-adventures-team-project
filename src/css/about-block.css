@@ -24,7 +24,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .about-text {}
+    .about-text {
+
+    }
 }
 
 .about-span {
@@ -75,7 +77,9 @@
     }
 }
 
-.about-img-list {}
+.about-img-list {
+    
+}
 
 .about-img-item {
     width: 100%;
