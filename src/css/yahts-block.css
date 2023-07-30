@@ -37,8 +37,24 @@
   }
 }
 
-.yachts-block__gradient-big,
-.yachts-block__gradient-small {
+/* .yachts-block__gradient {
+  background: radial-gradient(
+      279px 279px at -5% 80%,
+      hsla(196, 23%, 65%, 0.6) -25%,
+      hsla(231, 29%, 9%, 0) 120%
+    ),
+    radial-gradient(
+        279px 279px at 85% 105%,
+        rgba(148, 157, 173, 0.6) -25%,
+        hsla(231, 29%, 9%, 0) 140%
+      )
+      var(--dark-blue);
+  filter: blur(100px);
+  width: 200px;
+  height: 200px;
+} */
+
+.y-b__gradiens {
   position: absolute;
   /* position: relative; */
   filter: blur(100px);
@@ -69,8 +85,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-  .yachts-block__gradient-big,
-  .yachts-block__gradient-small {
+  .y-b__gradiens {
     transform: rotate(-44.094deg);
   }
 
@@ -92,8 +107,7 @@
 }
 
 @media (min-width: 1280px) {
-  .yachts-block__gradient-big,
-  .yachts-block__gradient-small {
+  .y-b__gradiens {
     transform: rotate(-45.074deg);
   }
 
