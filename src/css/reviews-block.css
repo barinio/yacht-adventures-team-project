@@ -1,3 +1,6 @@
+.review-section {
+    position: relative;
+}
 @media (min-width: 1280px) {
 
     .reviews-text-container {
@@ -39,6 +42,7 @@
     font-weight: 500;
     line-height: 120%;
     letter-spacing: -1.08px;
+    color: #93abae;
 
 }
 
@@ -131,6 +135,7 @@ body {
 
 .customer-container {}
 
+
 @media (min-width: 768px) {
     .customer-list {
         display: flex;
@@ -142,6 +147,7 @@ body {
 @media (min-width: 1280px) {
     .customer-list {
         gap: 32px;
+        padding-bottom: 164px;
 
     }
 }
@@ -217,7 +223,13 @@ height: 48px;
     gap: 10px;
     justify-content: center;
     margin-top: 14px;
+    padding-bottom: 80px;
 
+}
+@media (min-width: 768px) {
+    .slider-nav {
+        padding-bottom: 100px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -247,4 +259,26 @@ height: 48px;
         stroke-width: 1px;
         stroke: #93ABAE;
         box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.90) inset, 3px 3px 5px 0px rgba(213, 230, 245, 0.40) inset, 0px 0px 4px 0px rgba(46, 68, 87, 0.00) inset;
+}
+
+.arrow-back-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: #93ABAE;
+    padding: 14px 18px;
+    border-radius: 8px;
+
+}
+@media (min-width: 768px) {
+    .arrow-back-btn {
+        right: 32px;
+        bottom: 32px;
+        width: 68px;
+        height: 68px;
+        padding: 19px 26px;
+    }
+        
 }
