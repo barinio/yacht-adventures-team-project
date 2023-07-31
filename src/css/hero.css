@@ -171,7 +171,7 @@
 
 .hero-image-container {
     position: absolute;
-    background-image: url(/img/hero-block/mask-group.png);
+    background-image: url(/src/img/hero-block/mask-group.png);
     background-repeat: no-repeat;
     width: 335px;
     height: 427px;
@@ -299,7 +299,7 @@
         width: 426px;
         height: 598px;
         background-repeat: no-repeat;
-        background-image: url(/img/hero-block/maskgrup-tab@x1.png);
+        background-image: url(/src/img/hero-block/maskgrup-tab@x1.png);
     }
 
     .hero-main-img {
@@ -344,7 +344,7 @@
     }
 
     .hero-image-container {
-        background-image: url(/img/hero-block/maskgrup-tab@x1.png);
+        background-image: url(/src/img/hero-block/maskgrup-tab@x1.png);
         margin-top: 63px;
     }
 
