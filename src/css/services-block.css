@@ -76,3 +76,33 @@
 		padding-left: 372px;
 	}
 }
+@media (min-resolution: 192dpi) {
+	@media (min-width: 768px) {
+		.services-item:first-child img {
+			content: url(/img/services/tablet-img-diving@2x.png);
+			width: 704px;
+		}
+		.services-item:nth-child(2) img {
+			content: url(/img/services/tablet-img-fishing@2x.png);
+			width: 400px;
+		}
+		.services-item:last-child img {
+			content: url(/img/services/tablet-img-sunbathing@2x.png);
+			width: 380px;
+		}
+	}
+	@media (min-width: 1158px) {
+		.services-item:first-child img {
+			content: url(/img/services/img-diving@2x.png);
+			width: 712px;
+		}
+		.services-item:nth-child(2) img {
+			content: url(/img/services/img-fishing@2x.png);
+			width: 440px;
+		}
+		.services-item:last-child img {
+			content: url(/img/services/img-sunbathing@2x.png);
+			width: 436px;
+		}
+	}
+}
