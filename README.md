@@ -5,12 +5,12 @@
 
 ## Наша команда
 
-- **Барей Іван** - `Team-leader`.
+- **Ivan Barei** - `Team-leader`.
 - **Taras Popovych** - `Srum-master`.
-- **Анна Федорова** - `Учасник`.
-- **Yelyzaveta** - `Учасник`.
-- **Анна Бондаренко** - `Учасник`.
-- **Марія Дуфанець** - `Учасник`.
+- **Anna Fedorova** - `Учасник`.
+- **Yelyzaveta Shatrova** - `Учасник`.
+- **Anna Bondarenko** - `Учасник`.
+- **Maria Dufanets** - `Учасник`.
 - **Iryna Derevianska** - `Учасник`.
-- **Марія Масик** - `Учасник`.
+- **Maria Masyk** - `Учасник`.
 - **Oleksandr Kyslov** - `Учасник`.
