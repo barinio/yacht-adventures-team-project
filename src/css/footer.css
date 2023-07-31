@@ -7,39 +7,7 @@
   .footer {
     padding-top: 20px;
     padding-bottom: 14px;
-    background: radial-gradient(
-        227px 270px at 60% 130%,
-        rgba(148, 157, 173, 0.5) -25%,
-        hsla(231, 29%, 9%, 0) 140%
-      )
-      var(--dark-blue);
-  }
-}
 
-@media only screen and (min-width: 768px) {
-  .footer {
-    background: radial-gradient(
-        232px 165px at 65% 130%,
-        rgba(148, 157, 173, 0.3) -25%,
-        hsla(231, 29%, 9%, 0) 140%
-      )
-      var(--dark-blue);
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .footer {
-    background: radial-gradient(
-        164px 207px at 70% 150%,
-        hsla(196, 23%, 65%, 0.3) -25%,
-        hsla(231, 29%, 9%, 0) 120%
-      ),
-      radial-gradient(
-          205px 208px at 45% 150%,
-          rgba(148, 157, 173, 0.6) -25%,
-          hsla(231, 29%, 9%, 0) 140%
-        )
-        var(--dark-blue);
   }
 }
 
