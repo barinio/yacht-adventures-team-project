@@ -1,4 +1,4 @@
-.services-item {
+.services-content {
 	position: relative;
 }
 .services-btn {
@@ -52,9 +52,6 @@
 		padding-left: 32px;
 		align-self: flex-start;
 	}
-	.services-item:last-child .services-btn {
-		left: 64px;
-	}
 }
 
 @media (min-width: 1280px) {
@@ -77,8 +74,5 @@
 	}
 	.services-item:last-child {
 		padding-left: 372px;
-	}
-	.services-item:last-child .services-btn {
-		left: 404px;
 	}
 }
