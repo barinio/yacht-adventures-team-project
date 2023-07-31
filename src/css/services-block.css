@@ -31,15 +31,12 @@
 		gap: 32px;
 	}
 	.services-item:first-child img {
-		content: url(/img/services/tablet-img-diving.png);
 		width: 704px;
 	}
 	.services-item:nth-child(2) img {
-		content: url(/img/services/tablet-img-fishing.png);
 		width: 400px;
 	}
 	.services-item:last-child img {
-		content: url(/img/services/tablet-img-sunbathing.png);
 		width: 380px;
 	}
 	.services-item:nth-child(2) {
@@ -61,49 +58,16 @@
 		gap: 64px;
 	}
 	.services-item:first-child img {
-		content: url(/img/services/img-diving.png);
 		width: 712px;
 	}
 	.services-item:nth-child(2) img {
-		content: url(/img/services/img-fishing.png);
 		width: 440px;
 	}
 	.services-item:last-child img {
-		content: url(/img/services/img-sunbathing.png);
 		width: 436px;
 	}
 	.services-item:last-child {
 		padding-left: 372px;
-	}
-}
-@media (min-resolution: 192dpi) {
-	@media (min-width: 768px) {
-		.services-item:first-child img {
-			content: url(/img/services/tablet-img-diving@2x.png);
-			width: 704px;
-		}
-		.services-item:nth-child(2) img {
-			content: url(/img/services/tablet-img-fishing@2x.png);
-			width: 400px;
-		}
-		.services-item:last-child img {
-			content: url(/img/services/tablet-img-sunbathing@2x.png);
-			width: 380px;
-		}
-	}
-	@media (min-width: 1158px) {
-		.services-item:first-child img {
-			content: url(/img/services/img-diving@2x.png);
-			width: 712px;
-		}
-		.services-item:nth-child(2) img {
-			content: url(/img/services/img-fishing@2x.png);
-			width: 440px;
-		}
-		.services-item:last-child img {
-			content: url(/img/services/img-sunbathing@2x.png);
-			width: 436px;
-		}
 	}
 }
 /**
@@ -114,8 +78,8 @@
 @media only screen and (min-width: 1280px) {
 	.front {
 		display: block;
-		transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-		transition-duration: .5s;
+		transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		transition-duration: 0.5s;
 		transition-property: transform, opacity;
 		transform: rotateY(0deg);
 	}
@@ -123,8 +87,8 @@
 @media only screen and (min-width: 1280px) {
 	.back {
 		display: block;
-		transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-		transition-duration: .5s;
+		transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		transition-duration: 0.5s;
 		transition-property: transform, opacity;
 		position: absolute;
 		opacity: 0;
@@ -137,7 +101,9 @@
 		color: var(--dark-blue);
 		background: var(--white-text);
 		border-radius: 40px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+		box-shadow:
+			rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+			rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 	}
 	.fishing {
 		padding: 90px 32px;
@@ -145,46 +111,46 @@
 }
 @media only screen and (min-width: 1280px) {
 	.services-content:hover > .front {
-	transform: rotateY(180deg);
-  }
+		transform: rotateY(180deg);
+	}
 }
 @media only screen and (min-width: 1280px) {
 	.services-content:hover > .back {
-	opacity: 1;
-	transform: rotateY(0deg);
-  }
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
 }
 @media only screen and (min-width: 1280px) {
-  .flip-title {
-	font-size: 36px;
-	font-weight: 500;
-	line-height: 1.1;
-	margin-bottom: 8px;
-  }
-  .fish-ttl {
-	font-size: 28px;
-  }
+	.flip-title {
+		font-size: 36px;
+		font-weight: 500;
+		line-height: 1.1;
+		margin-bottom: 8px;
+	}
+	.fish-ttl {
+		font-size: 28px;
+	}
 }
 @media only screen and (min-width: 1280px) {
-  .flip-text {
-	font-size: 18px;
-	line-height: 1.1;
-  }
-  .fish-txt {
-	font-size: 16px;
-  }
+	.flip-text {
+		font-size: 18px;
+		line-height: 1.1;
+	}
+	.fish-txt {
+		font-size: 16px;
+	}
 }
 @media only screen and (max-width: 1279px) {
-  .hidden {
-  	position: absolute;
-  	width: 1px;
-  	height: 1px;
-  	margin: -1px;
-  	border: 0;
-  	padding: 0;
-  	white-space: nowrap;
-  	clip-path: inset(100%);
-  	clip: rect(0 0 0 0);
-  	overflow: hidden;
-  }
+	.hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		white-space: nowrap;
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
 }
