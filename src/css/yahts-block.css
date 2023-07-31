@@ -289,24 +289,20 @@
   text-transform: uppercase;
 }
 
-.yachts-block__buttons-list-wrap {
+.yachts-block__buttons-wrap {
   display: flex;
   justify-content: center;
-}
-
-@media (min-width: 1280px) {
-  .yachts-block__buttons-list-wrap {
-    display: none;
-  }
-}
-
-.yachts-block__buttons-list {
-  display: flex;
   gap: 14px;
 }
 
 @media (min-width: 768px) {
-  .yachts-block__buttons-list {
+  .yachts-block__buttons-wrap {
     gap: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .yachts-block__buttons-wrap {
+    display: none;
   }
 }
