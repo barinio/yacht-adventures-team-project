@@ -254,7 +254,7 @@ body {
 }
 
 /* SWIPER CONTAINER */
-.swiper-wrapper {
+.customer-list {
   min-width: 320px;
   max-width: 375px;
 
