@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-811a3803.js"></script>
+    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-cb2fda28.js"></script>
     <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-60a6ff96.css">
   </head>
   <body>
@@ -31,13 +31,13 @@
       </a>
       <ul class="header-nav-list list">
         <li>
-          <a class="header-menu-link" href="">About</a>
+          <a class="header-menu-link" href="#about">About</a>
         </li>
         <li>
-          <a class="header-menu-link" href=""> Yachts </a>
+          <a class="header-menu-link" href="#yachts">Yachts</a>
         </li>
         <li>
-          <a class="header-menu-link" href="">Reviews</a>
+          <a class="header-menu-link" href="#reviews">Reviews</a>
         </li>
       </ul>
       <button
@@ -53,7 +53,6 @@
     <div class="separator"></div>
   </div>
 </header>
-
 <div class="menu-container js-menu-container" id="mobile-menu">
   <div class="container header-container">
     <nav class="header-nav">
@@ -70,20 +69,11 @@
   </div>
 
   <ul class="mobile-menu">
-    <li><a href="" class="link">About</a></li>
-    <li><a href="" class="link">Yachts</a></li>
-    <li><a href="" class="link">Reviews</a></li>
+    <li><a href="#about" class="link js-menu-link">About</a></li>
+    <li><a href="#yachts" class="link js-menu-link">Yachts</a></li>
+    <li><a href="#reviews" class="link js-menu-link">Reviews</a></li>
   </ul>
 </div>
-
-<!-- MODAL SCRIPTS -->
-<script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>
-<script defer src="js/mobile-menu.js"></script>
 
     <main>
       <section class="hero-section">
@@ -150,7 +140,7 @@
         </div>
     </section>
 
-      <section class="section">
+      <section class="section" id="about">
   <div class="container">
     <p class="about-text">
       <span class="about-span">Yacht Adventures</span> fleet is here to take you
@@ -246,7 +236,7 @@
   </div>
 </section>
 
-      <section class="section">
+      <section class="section" id="yachts">
   <div class="yachts-block container">
     <div class="yachts-block__bg-vector"></div>
     <div class="yachts-block__title-btn-wrap">
@@ -631,7 +621,7 @@
   </div>
 </div>
 
-      <section class="review-section">
+      <section class="review-section" id="reviews">
     <div class="container">
         <div class="reviews-text-container">
             <h3 class="reviews-title">
@@ -766,6 +756,13 @@
 
     <!-- BTN-SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- MODAL MENU CDN SCRIPTS -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
