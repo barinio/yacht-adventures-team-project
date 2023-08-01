@@ -5,58 +5,101 @@
                 <span class="reviews-another">Yacht Adventures</span>
                 take pride in providing the best possible service and experience to our customers
             </h3>
+      <p class="reviews-text">
+        Our customers have enjoyed unforgettable moments on our yachts. Don't
+        just take our word for it - read on to find out what they have to say
+        about their journey with us.
+      </p>
+    </div>
+  </div>
 
-            <p class="reviews-text">Our customers have enjoyed unforgettable moments on our yachts. Don't just take our
-                word for it - read on to find out
-                what they have to say about their journey with us.</p>
-
+  <!-- SLIDER START -->
+  <div class="swiper-container">
+    <ul class="customer-list swiper-wrapper">
+      <!-- CARD 1 -->
+      <li class="reviws-item swiper-slide">
+        <div class="customer-container">
+          <div class="customer-pict">
+            <img
+              class="customer-icon"
+              src="./img/reviews-block/image1_mobile.png"
+              alt="John Wax"
+              srcset="
+                ./img/reviews-block/image1_mobile.png    1x,
+                ./img/reviews-block/image1_mobile@2x.png 2x
+              "
+            />
+          </div>
+          <div class="customer-review">
+            <h3 class="customer-name">John Wax</h3>
+            <p class="customer-feedback">
+              I rented the Lagoon 620 with my family for a week-long vacation
+              and it was the best decision ever. The yacht was spacious,
+              comfortable, and luxurious, and the crew took care of everything.
+            </p>
+          </div>
         </div>
+      </li>
 
-        <ul class="customer-list">
-            <li class="reviws-item">
-                <div class="customer-container">
-                    <div class="customer-pict">
-                        <img class="customer-icon" src="./img/reviews-block/image1_mobile.png" alt="John Wax"
-                            srcset="./img/reviews-block/image1_mobile.png 1x, ./img/reviews-block/image1_mobile@2x.png 2x"></div>
-                    <div class="customer-review">
-                        <h3 class="customer-name">John Wax</h3>
-                        <p class="customer-feedback">I rented the Lagoon 620 with my family for a week-long vacation and
-                            it was the best decision ever. The yacht was
-                            spacious, comfortable, and luxurious, and the crew took care of everything.</p>
-                    </div>
-                </div>
-            </li>
-            <li class="reviws-item">
-                <div class="customer-container">
-                    <div class="customer-pict">
-                        <img class="customer-icon" src="./img/reviews-block/image2_mobile.png" alt="Victoria Romashenko"
-                            srcset="./img/reviews-block/image2_mobile.png 1x, ./img/reviews-block/image2_mobile@2x.png 2x"></div>
-                    <div class="customer-review">
-                        <h3 class="customer-name">Victoria Romashenko</h3>
-                        <p class="customer-feedback">The Sunseeker Manhattan 66 was the perfect choice for our romantic
-                            getaway. The yacht was beautifully designed, with all
-                            the amenities we needed, and the crew was attentive and friendly.</p>
-                    </div>
-                </div>
-            </li>
-            <li class="reviws-item">
-                <div class="customer-container">
-                    <div class="customer-pict">
-                        <img class="customer-icon" src="./img/reviews-block/image3_mobile.png" alt="Ihor Trachuk"
-                            srcset="./img/reviews-block/image3_mobile.png 1x, ./img/reviews-block/image3_mobile@2x.png 2x"></div>
-                    <div class="customer-review">
-                        <h3 class="customer-name">Ihor Trachuk</h3>
-                        <p class="customer-feedback">The Azimut 80 was the most luxurious yacht I've ever been on. The
-                            cabins were spacious and elegant, and the outdoor
-                            areas were perfect for relaxing and entertaining. Worth every penny!</p>
-                    </div>
-            </li>
-    </div>
+      <!-- CARD 2 -->
+      <li class="reviws-item swiper-slide">
+        <div class="customer-container">
+          <div class="customer-pict">
+            <img
+              class="customer-icon"
+              src="./img/reviews-block/image2_mobile.png"
+              alt="Victoria Romashenko"
+              srcset="
+                ./img/reviews-block/image2_mobile.png    1x,
+                ./img/reviews-block/image2_mobile@2x.png 2x
+              "
+            />
+          </div>
+          <div class="customer-review">
+            <h3 class="customer-name">Victoria Romashenko</h3>
+            <p class="customer-feedback">
+              The Sunseeker Manhattan 66 was the perfect choice for our romantic
+              getaway. The yacht was beautifully designed, with all the
+              amenities we needed, and the crew was attentive and friendly.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <!-- CARD 3 -->
+      <li class="reviws-item swiper-slide">
+        <div class="customer-container">
+          <div class="customer-pict">
+            <img
+              class="customer-icon"
+              src="./img/reviews-block/image3_mobile.png"
+              alt="Ihor Trachuk"
+              srcset="
+                ./img/reviews-block/image3_mobile.png    1x,
+                ./img/reviews-block/image3_mobile@2x.png 2x
+              "
+            />
+          </div>
+          <div class="customer-review">
+            <h3 class="customer-name">Ihor Trachuk</h3>
+            <p class="customer-feedback">
+              The Azimut 80 was the most luxurious yacht I've ever been on. The
+              cabins were spacious and elegant, and the outdoor areas were
+              perfect for relaxing and entertaining. Worth every penny!
+            </p>
+          </div>
+        </div>
+      </li>
     </ul>
+    <!-- SLIDER BULLETS -->
     <div class="slider-nav">
+      <!-- <button class="slider-button" type="button"></button>
        <button class="slider-button" type="button"></button>
-       <button class="slider-button" type="button"></button>
-       <button class="slider-button" type="button"></button>
+       <button class="slider-button" type="button"></button> -->
     </div>
-
+  </div>
 </section>
+
+<!-- Slider connection -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../js/review-swiper.js"></script>
