@@ -122,14 +122,6 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .customer-list {
-    /* display: flex; */
-    /* gap: 16px;
-        justify-content: space-around; */
-  }
-}
-
 @media (min-width: 1280px) {
   .customer-list {
     /* gap: 32px; */
@@ -257,8 +249,6 @@ body {
 .customer-list {
   min-width: 320px;
   max-width: 375px;
-
-  padding: 0 20px;
 }
 
 .swiper-container {
