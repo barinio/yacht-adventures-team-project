@@ -5,9 +5,7 @@
 */
 .hero-container {
     padding: 0 20px;
-    /*background:
-         linear-gradient(at bottom left, #91AFBA 100%, #1f212d 47.92%, #11131f 0%, 125.31deg);
-        background-attachment: fixed;*/
+    
 }
 
 .hero-text-box {
@@ -21,7 +19,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.1;
-    letter-spacing: -1.62px;
+    letter-spacing: -0.045em;
     margin-bottom: 14px;
 }
 
@@ -35,7 +33,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.1;
-    letter-spacing: -1.62px;
+    letter-spacing: -0.045em;
 }
 
 .hero-text {
@@ -46,7 +44,7 @@
     font-weight: 400;
     line-height: 1.4;
     /* 19.6px */
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
     margin-bottom: 24px;
 }
 
@@ -64,7 +62,7 @@
     font-weight: 700;
     line-height: 1.1;
     /* 15.4px */
-    letter-spacing: -0.63px;
+    letter-spacing: -0.045em;
     text-align: center;
     padding: 14px 28px;
     border: none;
@@ -87,7 +85,7 @@
     font-weight: 700;
     line-height: 1.1;
     /* 15.4px */
-    letter-spacing: -0.63px;
+    letter-spacing: -0.045em;
     background: transparent;
     padding: 14px 28px;
     border-radius: 60px;
@@ -110,8 +108,8 @@
     }
 
     .hero-text-box {
-        max-width: 768px;
-        padding: 64px 0;
+        
+        padding: 64px 0 0 0;
 
 
     }
@@ -121,7 +119,7 @@
         font-weight: 500;
         line-height: 1.1;
         /* 66px */
-        letter-spacing: -2.7px;
+        letter-spacing: -0.045em;
         margin-bottom: 16px;
     }
 
@@ -130,14 +128,14 @@
         font-style: italic;
         font-weight: 500;
         line-height: 1.1;
-        letter-spacing: -2.7px;
+        letter-spacing: -0.045em;
     }
 
     .hero-text {
-        width: 539px;
+        
         margin-bottom: 32px;
         font-size: 16px;
-        letter-spacing: -0.32px;
+        letter-spacing: -0.02em;
     }
 }
 
@@ -149,7 +147,7 @@
     }
 
     .hero-text-box {
-        width: 554px;
+        
         margin-left: 217px;
     }
 
@@ -164,18 +162,19 @@
 
 .hero-image-section {
     position: relative;
-    max-width: 363px;
-
+    max-width: 100%;
+  padding-top: 64px;
+   
 
 }
 
 .hero-image-container {
     position: relative;
-    margin: 0 auto;
     background-image: url(/img/hero-block/mask-group.png);
     background-repeat: no-repeat;
-    width: 335px;
+    max-width: 100%;
     height: 427px;
+    
 
 }
 
@@ -219,7 +218,7 @@
     font-weight: 700;
     line-height: 110%;
     /* 15.4px */
-    letter-spacing: 0.56px;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
 
 }
@@ -227,20 +226,22 @@
 .hero-img-ceo {
     position: absolute;
     border-radius: 24px;
+    width: 133px;
     top: 30px;
-    right: -11px;
+    right: -5px;
     z-index: 3;
 }
 
 .hero-main-img {
-    
-    width: 287px;
-    height: 167px;
-    
+    position: absolute;
+    /*width: 287px;*/
+    width: 100%;
+   /* height: 167px;*/
+   height: auto;
+    bottom: 110px;
     background: transparent;
-    
-    transform: translateY(85%);
     margin: 0 auto;
+    
     
 }
 .hero-text-list {
@@ -252,7 +253,8 @@
     align-items: center;
     bottom: 50px;
     left: 24px;
-    margin-top: 17px;
+    right: 24px;
+    
 
 }
 
@@ -264,12 +266,12 @@
     font-weight: 400;
     line-height: 1.1;
     /* 52.8px */
-    letter-spacing: -2.16px;
+    letter-spacing: -0.045em;
     text-transform: uppercase;
 }
 
 .hero-kleine-text {
-    width: 169px;
+    
     color: var(--dark-blue);
     font-family: DM Sans;
     font-size: 14px;
@@ -277,8 +279,21 @@
     font-weight: 400;
     line-height: 1.4;
     /* 19.6px */
-    letter-spacing: -0.63px;
+    letter-spacing: -0.045em;
 }
+/*.hero-elips {
+    position: absolute;
+    width: 279px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 279px;
+    opacity: 0.8;
+    background: #BEC7C2;
+    filter: blur(100px);
+    bottom: 112px;
+    left: 30px;
+    
+}*/
 
 @media only screen and (min-width: 768px) {
     .hero-container {
@@ -286,7 +301,7 @@
     }
 
     .hero-text-box {
-        width: 698px;
+       
         margin: 0;
     }
     .hero-clients-box {
@@ -297,7 +312,8 @@
         width: 56px;
         }
     .hero-image-section {
-        width: 462px;
+        width: 100%;
+        
     }
 
     .hero-image-container {
@@ -307,12 +323,24 @@
         background-image: url(/img/hero-block/maskgrup-tab@x1.png);
         
     }
-   
+   .hero-blur {
+        position: absolute;
+        top: 56px;
+        left: 85px;
+        width: 142px;
+        height: 142px;
+        transform: rotate(-45.074deg);
+        flex-shrink: 0;
+        background-color: var(--ellipse);
+        opacity: 0.6;
+        filter: blur(90px);
+    }
     .hero-main-img {
         width: 378px;
         height: 221px;
-        transform: translateY(100%);
-        margin-bottom: 32px;
+        bottom: 122px;
+        left: 24px;
+        margin-bottom: 22px;
     }
 
     .hero-img-ceo {
@@ -324,6 +352,7 @@
     .hero-text-list {
         position: absolute;
         left: 32px;
+        right: 32px;
         bottom: 67px;
     }
 
@@ -331,16 +360,15 @@
         font-size: 60px;
         line-height: 1.1;
         /* 66px */
-        letter-spacing: -2.7px;
+        letter-spacing: -0.045em;
         text-transform: uppercase;
     }
 
     .hero-kleine-text {
-        width: 208px;
         font-size: 18px;
         line-height: 1.1;
         /* 19.8px */
-        letter-spacing: -0.81px;
+        letter-spacing: -0.045em;
     }
 
 }
@@ -350,12 +378,12 @@
         justify-content: space-between;
     }
     .hero-image-section {
-        width: 462px;
+        width: 100%;
     }
 
     .hero-image-container {
         background-image: url(/img/hero-block/maskgrup-tab@x1.png);
-        margin-top: 63px;
+        
     }
 
     .hero-section {
@@ -363,7 +391,7 @@
         padding-bottom: 164px;
     }
     .hero-text-box {
-        width: 554px;
+       
         margin-bottom: 32px;
         margin-left: 217px;
     }
@@ -375,7 +403,7 @@
         font-weight: 500;
         line-height: 1.1;
         /* 66px */
-        letter-spacing: -2.7px;
+        letter-spacing: -0.045em;
         margin-bottom: 16px;
     }
 
@@ -384,13 +412,31 @@
         font-style: italic;
         font-weight: 500;
         line-height: 110%;
-        letter-spacing: -2.7px;
+        letter-spacing: -0.045em;
     }
 
     .hero-text {
         font-size: 16px;
         line-height: 1.4;
         /* 22.4px */
-        letter-spacing: -0.32px;
+        letter-spacing: -0.02em;
     }
+}
+@media only screen and (max-width: 320px) {
+   
+   .hero-image-container {
+    max-width: 90%;
+
+    
+  }
+  .hero-main-img {
+    width: 90%;
+    left: 10px;
+
+  }
+  .hero-img-ceo {
+    width: 120px;
+    
+  }
+  
 }
