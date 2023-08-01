@@ -83,8 +83,6 @@
 		transition-property: transform, opacity;
 		transform: rotateY(0deg);
 	}
-}
-@media only screen and (min-width: 1280px) {
 	.back {
 		display: block;
 		transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -108,19 +106,13 @@
 	.fishing {
 		padding: 90px 32px;
 	}
-}
-@media only screen and (min-width: 1280px) {
 	.services-content:hover > .front {
 		transform: rotateY(180deg);
 	}
-}
-@media only screen and (min-width: 1280px) {
 	.services-content:hover > .back {
 		opacity: 1;
 		transform: rotateY(0deg);
 	}
-}
-@media only screen and (min-width: 1280px) {
 	.flip-title {
 		font-size: 36px;
 		font-weight: 500;
@@ -130,8 +122,6 @@
 	.fish-ttl {
 		font-size: 28px;
 	}
-}
-@media only screen and (min-width: 1280px) {
 	.flip-text {
 		font-size: 18px;
 		line-height: 1.1;
