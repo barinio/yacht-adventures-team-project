@@ -19,8 +19,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-f85da39c.js"></script>
-    <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-34acf491.css">
+    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-811a3803.js"></script>
+    <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-60a6ff96.css">
   </head>
   <body>
     <header class="header">
@@ -558,6 +558,7 @@
             type="text"
             name="username"
             id="username"
+            placeholder="Oleksandr"
             pattern="[A-Za-z]{3,}"
             title="The name must contain at least three Latin letters"
             required
@@ -570,6 +571,8 @@
             type="email"
             name="email"
             id="email"
+            placeholder="example@mail.com"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             title="Please enter a valid email address."
             required
             class="rent-input"
@@ -581,13 +584,14 @@
             type="tel"
             name="phone"
             id="phone"
-            pattern="[0-9]{10}"
-            title="Must contain no more than ten numbers"
+            placeholder="+380123456789"
+            pattern="[\d+]{10,}"
+            title="Must contain no more than 12 numbers"
             required
             class="rent-input"
           />
         </label>
-        <label class="label-field">
+        <label class="label-area-field">
           Comment
           <textarea name="comment" rows="4" class="rent-area"></textarea>
         </label>
