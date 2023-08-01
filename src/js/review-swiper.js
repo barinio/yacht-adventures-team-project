@@ -5,18 +5,22 @@ $(document).ready(function () {
     dynamicBullets: true,
     simulateTouch: true,
     pagination: {
-      el: '.swiper-nav',
-      clicable: true,
+      el: '.slider-nav',
+      clickable: true,
     },
+
     spaceBetween: 20,
+    loop: false,
     breakpoints: {
       1280: {
         slidesPerView: 3,
         spaceBetween: 32,
+        loop: false,
       },
       768: {
         slidesPerView: 2,
         spaceBetween: 16,
+        loop: false,
       },
       320: {
         slidesPerView: 1,
