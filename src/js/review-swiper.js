@@ -21,6 +21,7 @@ $(document).ready(function () {
       320: {
         slidesPerView: 1,
         spaceBetween: 16,
+        loop: true,
       },
     },
     keyboard: {
