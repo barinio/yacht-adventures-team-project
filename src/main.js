@@ -6,3 +6,4 @@ import './js/services-flip-card';
 import './js/yahts-swiper.js';
 import './js/yacht-card.js';
 import './js/review-card.js';
+import './js/hero-parallax.js';
