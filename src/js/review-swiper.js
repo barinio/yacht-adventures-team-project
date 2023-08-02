@@ -1,39 +1,42 @@
 $(document).ready(function () {
-  // Swiper: Slider
   new Swiper('.swiper-review-container', {
     paginationClickable: true,
+    direction: 'horizontal',
     dynamicBullets: true,
     simulateTouch: true,
+    initialSlide: 0,
+    centeredSlides: false,
+    slidesOffsetBefore: 0,
     pagination: {
       el: '.slider-nav',
       clickable: true,
     },
-
+    autoplay: {
+      delay: 2000,
+    },
+    speed: 1000,
     spaceBetween: 20,
-    loop: false,
     breakpoints: {
       1280: {
         slidesPerView: 3,
         spaceBetween: 32,
-        loop: false,
+        simulateTouch: false,
       },
       768: {
+        loop: true,
+        centeredSlides: false,
         slidesPerView: 2,
         spaceBetween: 16,
-        loop: false,
       },
       320: {
         slidesPerView: 1,
+        loop: true,
         spaceBetween: 20,
-        // loop: true,
       },
     },
     keyboard: {
       enabled: true,
       onlyInViewport: true,
-    },
-    mousewheel: {
-      sensivity: 1,
     },
   });
 });
