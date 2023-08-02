@@ -63,11 +63,20 @@ transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1)
   fill: var(--white-text);
   background-color: transparent;
   border: none;
-  transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu-toggle-icon:hover,
 .mobile-menu-toggle-icon:focus{
   fill: var(--light-green);
+}
+
+.menu-close-icon {
+  stroke: var(--white-text);
+  transition: stroke 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-close-icon:hover,
+.menu-close-icon:focus {
+  stroke: var(--light-green);
 }
 
 @media screen and (min-width: 768px) {
