@@ -1,7 +1,7 @@
 .yachts-block {
 	position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.yachts-section {
 		padding-top: 0;
 		margin-top: -122px;
