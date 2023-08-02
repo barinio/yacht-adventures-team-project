@@ -122,21 +122,6 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .customer-list {
-    /* display: flex; */
-    /* gap: 16px;
-        justify-content: space-around; */
-  }
-}
-
-@media (min-width: 1280px) {
-  .customer-list {
-    /* gap: 32px; */
-    padding-bottom: 164px;
-  }
-}
-
 .customer-pict {
   display: flex;
   justify-content: center;
@@ -257,12 +242,17 @@ body {
 .customer-list {
   min-width: 320px;
   max-width: 375px;
-
-  padding: 0 20px;
 }
 
-.swiper-container {
+@media (min-width: 768px) {
+  .swiper-review-container {
+    padding: 0;
+  }
+}
+
+.swiper-review-container {
   width: 100%;
+  overflow: hidden;
 }
 
 .slider-nav {

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Swiper: Slider
-  new Swiper('.swiper-container', {
+  new Swiper('.swiper-review-container', {
     paginationClickable: true,
     dynamicBullets: true,
     simulateTouch: true,
@@ -24,7 +24,7 @@ $(document).ready(function () {
       },
       320: {
         slidesPerView: 1,
-        spaceBetween: 16,
+        spaceBetween: 20,
         // loop: true,
       },
     },
