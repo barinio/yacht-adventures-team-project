@@ -29,7 +29,7 @@ $(document).ready(function () {
       },
       320: {
         slidesPerView: 1,
-        loop: true,
+        // loop: true,
         spaceBetween: 20,
       },
     },
