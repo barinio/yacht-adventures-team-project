@@ -14,12 +14,7 @@ function madeFlipCard(e) {
   contentEl.classList.add('flipped');
   flippedCard = contentEl;
 }
-document.addEventListener('click', e => {
-  if (!e.target.closest('.services-content')) {
-    flippedCard.classList.remove('flipped');
-    flippedCard = null;
-  }
-});
+
 backDivs.forEach(div => {
   div.addEventListener('click', e => {
     const contentEl = e.target.closest('.services-content');
