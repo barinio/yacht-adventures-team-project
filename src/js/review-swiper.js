@@ -3,7 +3,6 @@ $(document).ready(function () {
     paginationClickable: true,
     direction: 'horizontal',
     dynamicBullets: true,
-    simulateTouch: true,
     initialSlide: 0,
     slidesOffsetBefore: 0,
     pagination: {
