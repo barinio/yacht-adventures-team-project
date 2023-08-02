@@ -5,7 +5,6 @@ $(document).ready(function () {
     dynamicBullets: true,
     simulateTouch: true,
     initialSlide: 0,
-    centeredSlides: false,
     slidesOffsetBefore: 0,
     pagination: {
       el: '.slider-nav',
@@ -23,8 +22,8 @@ $(document).ready(function () {
         simulateTouch: false,
       },
       768: {
-        loop: true,
-        centeredSlides: false,
+        // loop: true,
+        // centeredSlides: true,
         slidesPerView: 2,
         spaceBetween: 16,
       },
