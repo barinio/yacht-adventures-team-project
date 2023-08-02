@@ -12,7 +12,6 @@
 .reviews-title {
 
     color: #F6F5EF;
-    font-family: DM Sans;
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
@@ -36,7 +35,6 @@
 }
 
 .reviews-another {
-    font-family: DM Sans;
     font-size: 24px;
     font-style: italic;
     font-weight: 500;
@@ -54,12 +52,9 @@
 
 .reviews-text {
     color: #F6F5EF;
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 19.6px */
     letter-spacing: -0.28px;
     margin-bottom: 40px;
     max-width: 335px;
@@ -180,12 +175,9 @@ height: 48px;
 .customer-name {
     color: #F6F5EF;
     text-align: center;
-    font-family: DM Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 110%;
-    /* 17.6px */
     letter-spacing: -0.72px;
     margin-bottom: 8px;
 }
@@ -205,7 +197,6 @@ height: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 16.8px */
     letter-spacing: -0.24px;
     width: 320px;
 }
