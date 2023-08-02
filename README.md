@@ -5,8 +5,8 @@
 
 ## Наша команда
 
-- **Ivan Barei** - `Team-leader`.
-- **Taras Popovych** - `Srum-master`.
+- **Ivan Barei** - `Team Lead`.
+- **Taras Popovych** - `Scrum Master`.
 - **Anna Fedorova** - `Учасник`.
 - **Yelyzaveta Shatrova** - `Учасник`.
 - **Anna Bondarenko** - `Учасник`.

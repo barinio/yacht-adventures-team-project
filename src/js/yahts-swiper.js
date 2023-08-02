@@ -1,5 +1,9 @@
+let prevBtn = document.querySelector('.swiper-button-prev');
+let nextBtn = document.querySelector('.swiper-button-next');
+let listEl = document.querySelector('.yachts-block__card-list');
+
 var swiper = new Swiper('.swiper', {
-  slidesPerView: 2,
+  slidesPerView: getSlidesPerView(),
   direction: getDirection(),
   navigation: {
     nextEl: '.swiper-button-next',
@@ -8,26 +12,31 @@ var swiper = new Swiper('.swiper', {
   on: {
     resize: function () {
       swiper.changeDirection(getDirection());
+      swiper.params.slidesPerView = getSlidesPerView();
+      swiper.update();
     },
   },
 });
 
 function getDirection() {
   var windowWidth = window.innerWidth;
-  var direction = window.innerWidth <= 320 ? 'vertical' : 'horizontal';
-
-  return direction;
+  return windowWidth <= 320 ? 'vertical' : 'horizontal';
 }
 
-let swiperEl = document.querySelector('.swiper.yachts-swiper');
-let prevBtn = document.querySelector('.swiper-button-prev');
-let nextBtn = document.querySelector('.swiper-button-next');
+function getSlidesPerView() {
+  var windowWidth = window.innerWidth;
+  if (windowWidth >= 1280) {
+    return 3;
+  } else if (windowWidth >= 768) {
+    return 2;
+  } else {
+    return 1;
+  }
+}
 
 nextBtn.addEventListener('click', onNextBtnChange);
 function onNextBtnChange() {
-  swiperEl.style.overflow = 'visible';
+  listEl.style.gap = '12px';
 }
 prevBtn.addEventListener('click', onPrevBtnChange);
-function onPrevBtnChange() {
-  swiperEl.style.overflow = 'hidden';
-}
+function onPrevBtnChange() {}
