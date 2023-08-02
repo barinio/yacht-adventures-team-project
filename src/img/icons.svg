@@ -24,8 +24,8 @@
         d="M23.579 14.316c0 6.046-4.901 10.947-10.947 10.947S1.685 20.362 1.685 14.316c0-6.046 4.901-10.947 10.947-10.947S23.579 8.27 23.579 14.316z" />
     </symbol>
     <symbol id="icon-close-mark" viewBox="0 0 32 32">
-      <path fill="none" stroke="#f6f5ef" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08"
-        d="M24 8 8 24M8 8l16 16" style="stroke:var(--color1, #f6f5ef)" />
+      <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08"
+        d="M24 8 8 24M8 8l16 16" />
     </symbol>
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path
