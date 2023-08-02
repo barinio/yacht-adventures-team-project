@@ -218,7 +218,7 @@ body {
   }
 }
 
-.slider-button {
+.swiper-pagination-bullet {
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -226,8 +226,8 @@ body {
   background-color: #1f212d;
   filter: drop-shadow(2px 1px 3px rgba(24, 55, 91, 0.2));
 }
-.slider-button:hover {
-  background-color: #88b3b9;
+.swiper-pagination-bullet:hover {
+  background-color: #93abae;
   stroke-width: 1px;
   stroke: #93abae;
   box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.9) inset,
@@ -235,17 +235,26 @@ body {
     0px 0px 4px 0px rgba(46, 68, 87, 0) inset;
 }
 
-.slider-button:focus {
-  background-color: #88b3b9;
+.swiper-pagination-bullet:focus {
+  background-color: #93abae;
   stroke-width: 1px;
   stroke: #93abae;
+  box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.9) inset,
+    3px 3px 5px 0px rgba(213, 230, 245, 0.4) inset,
+    0px 0px 4px 0px rgba(46, 68, 87, 0) inset;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #88b3b9;
+  stroke-width: 1px;
+  stroke: #88b3b9;
   box-shadow: 2px 2px 3px 0px rgba(79, 98, 120, 0.9) inset,
     3px 3px 5px 0px rgba(213, 230, 245, 0.4) inset,
     0px 0px 4px 0px rgba(46, 68, 87, 0) inset;
 }
 
 /* SWIPER CONTAINER */
-.swiper-wrapper {
+.customer-list {
   min-width: 320px;
   max-width: 375px;
 
@@ -254,4 +263,11 @@ body {
 
 .swiper-container {
   width: 100%;
+}
+
+.slider-nav {
+  position: relative;
+  bottom: auto;
+  text-align: center;
+  margin-top: 25px;
 }
