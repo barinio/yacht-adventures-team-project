@@ -183,13 +183,14 @@
 	z-index: -10;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1279px) {
 	.about-img-last {
 		position: absolute;
 		top: 863px;
 		left: 340px;
 	}
 	.about-img-first {
+		width: 100%;
 		margin-bottom: 32px;
 	}
 }
@@ -200,6 +201,7 @@
 	}
 
 	.about-img-first {
+		width: 533px;
 		position: absolute;
 		left: 340px;
 		z-index: -5;
@@ -244,4 +246,3 @@
 		top: 504px;
 	}
 }
-
