@@ -8,4 +8,3 @@ import './js/yacht-card.js';
 import './js/review-card.js';
 import './js/hero-parallax.js';
 import './js/soft-scroll.js';
-import './js/scroll-trigger.js';
