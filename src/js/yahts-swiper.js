@@ -20,7 +20,7 @@ var swiper = new Swiper('.swiper', {
 
 function getDirection() {
   var windowWidth = window.innerWidth;
-  return windowWidth <= 320 ? 'vertical' : 'horizontal';
+  return windowWidth <= 115 ? 'vertical' : 'horizontal';
 }
 
 function getSlidesPerView() {

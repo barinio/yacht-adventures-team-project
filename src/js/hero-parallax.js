@@ -4,3 +4,13 @@ VanillaTilt.init(document.querySelectorAll('.hero-image-container'), {
   glare: false,
   transition: true,
 });
+
+let btnEl = document.querySelector('.hero-btn');
+btnEl.addEventListener('click', scrollToAnchor);
+
+function scrollToAnchor() {
+  window.scroll({
+    top: document.querySelector('#about').offsetTop,
+    behavior: 'smooth',
+  });
+}
