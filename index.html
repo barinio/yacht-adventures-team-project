@@ -23,11 +23,13 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-1a462e98.js"></script>
-    <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-8c2088c9.css">
+    <!-- FOR SCROLL ANIMATIONS -->
+    
+    <script type="module" crossorigin src="/yacht-adventures-team-project/assets/index-da366bc6.js"></script>
+    <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-fe37f1ac.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header animatable fadeInDown">
   <div class="container header-container">
     <nav class="header-nav">
       <a class="header-logo" href="">
@@ -90,7 +92,7 @@
     <main>
       <section class="hero-section">
   <div class="container hero-container">
-    <div class="hero-text-box">
+    <div class="hero-text-box animatable bounceInRight">
       <h1 class="hero-main-text">
         Explore the High Seas with
         <span class="hero-span">Our Luxury Yacht</span> Rentals
@@ -114,7 +116,7 @@
         <!-- End wave -->
       </div>
     </div>
-    <div class="hero-image-section">
+    <div class="hero-image-section animatable fadeIn">
       <!-- Images -->
       <div class="hero-image-container">
         <div class="hero-blur"></div>
@@ -140,7 +142,7 @@
             />
 
             <img
-              class="hero-img-ceo"
+              class="hero-img-ceo animatable bounceInLeft"
               src="/yacht-adventures-team-project/assets/img-ceo@x1-d5d5c2fb.png"
               alt="man on the sea"
               loading="lazy"
@@ -173,7 +175,7 @@
                 />
 
                 <img
-                  class="hero-clients-img"
+                  class="hero-clients-img animatable fadeInUp"
                   src="/yacht-adventures-team-project/assets/icon-client1@x1-ab4c29fd.png"
                   alt="photo Clients1"
                   loading="lazy"
@@ -202,7 +204,7 @@
                 />
 
                 <img
-                  class="hero-clients-img"
+                  class="hero-clients-img animatable fadeInUp"
                   src="/yacht-adventures-team-project/assets/icon-client2@x1-761c17bd.png"
                   alt="photo Clients2"
                   loading="lazy"
@@ -231,7 +233,7 @@
                 />
 
                 <img
-                  class="hero-clients-img"
+                  class="hero-clients-img animatable fadeInUp"
                   src="data:image/png;base64,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"
                   alt="photo Clients3"
                   loading="lazy"
@@ -271,7 +273,7 @@
           />
         </picture>
 
-        <div class="hero-text-list">
+        <div class="hero-text-list animatable fadeInUp">
           <p class="hero-grosse-text">$12M</p>
           <p class="hero-kleine-text">
             Book now and make your dream yacht rental a reality
@@ -285,12 +287,12 @@
       <section class="section about-block" id="about">
   <div class="about-container container">
     <div class="about-text-container">
-      <p class="about-text">
+      <p class="about-text animatable bounceInLeft">
         <span class="about-span">Yacht Adventures</span> fleet is here to take
         you on the ultimate adventure. Each yacht is hand-picked for its
         comfort, style, and performance.
       </p>
-      <ul class="about-list">
+      <ul class="about-list animatable bounceInRight">
         <li class="about-item about-item-first">
           <p>
             From spacious decks to state-of-the-art technology, our yachts are
@@ -309,7 +311,7 @@
       </ul>
     </div>
     <ul class="about-img-list">
-      <li class="about-img-item">
+      <li class="about-img-item animatable moveUp">
         <picture>
           <source
             media="(min-width: 1280px)"
@@ -349,7 +351,7 @@
           />
         </picture>
       </li>
-      <li class="about-img-item">
+      <li class="about-img-item animatable moveUp">
         <picture>
           <source
             media="(min-width: 1280px)"
@@ -442,7 +444,7 @@
   <div class="yachts-block container">
     <div class="yachts-block__bg-vector"></div>
     <div class="yachts-block__title-btn-wrap">
-      <h2 class="yachts-block__title">
+      <h2 class="yachts-block__title animatable fadeInUp">
         Choose your dream yacht and sail away into the sunset
       </h2>
       <a class="yachts-block__link" href="#rent-form">Yacht rental</a>
@@ -457,7 +459,7 @@
           <use href="/yacht-adventures-team-project/assets/icons-e085c620.svg#icon-arrow-left"></use>
         </svg>
       </button>
-      <div class="swiper yachts-swiper">
+      <div class="swiper yachts-swiper animatable fadeInUp">
         <ul class="swiper-wrapper yachts-block__card-list">
           <!-- CARD 1 -->
           <li class="swiper-slide yachts-block__card-set">
@@ -899,7 +901,7 @@
     <ul class="services-list">
       <li class="services-item">
         <div class="services-content">
-          <div class="front">
+          <div class="front animatable bounceInLeft">
             <picture>
               <source
                 media="(min-width: 1280px)"
@@ -951,7 +953,7 @@
           </div>
         </div>
       </li>
-      <li class="services-item">
+      <li class="services-item animatable bounceInLeft">
         <div class="services-content">
           <div class="front">
             <picture
@@ -1005,7 +1007,7 @@
           </div>
         </div>
       </li>
-      <li class="services-item">
+      <li class="services-item animatable fadeInUp">
         <div class="services-content">
           <div class="front">
             <picture
@@ -1062,7 +1064,7 @@
 
       <section class="rent-section" id="rent-form">
   <div class="rent-container container">
-    <div class="title-wrap">
+    <div class="title-wrap animatable bounceInLeft">
       <h2 class="rent-title">Rent a yacht now</h2>
       <picture>
         <source
@@ -1104,7 +1106,7 @@
         />
       </picture>
     </div>
-    <div class="form-wrap">
+    <div class="form-wrap animatable fadeIn">
       <form name="rent_form" autocomplete="on" class="rent-form">
         <label class="label-field">
           Full Name
@@ -1213,7 +1215,7 @@
   </div>
 </div>
 
-      <section class="review-section" id="reviews">
+      <section class="review-section animatable fadeInUp" id="reviews">
   <div class="container">
     <div class="reviews-text-container">
       <h3 class="reviews-title">
@@ -1368,7 +1370,7 @@
 
     </main>
     <!-- Footer -->
-<footer class="footer">
+<footer class="footer animatable fadeInUp">
   <div class="line"></div>
   <div class="footer-container container">
     <div class="footer-logo">
@@ -1443,7 +1445,7 @@
 </footer>
 
     <!-- BACK TO TOP -->
-<div class="progress-wrap">
+<div class="progress-wrap animatable bounceInRight">
   <svg
     class="progress-circle svg-content"
     width="100%"
