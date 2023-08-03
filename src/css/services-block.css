@@ -1,6 +1,5 @@
 .services-content {
 	position: relative;
-	opacity: 0;
 }
 
 .services-btn {
@@ -170,34 +169,4 @@
 		opacity: 1;
 		transform: rotateY(0deg);
 	}
-}
-
-@keyframes ballFall {
-	0% {
-		opacity: 0;
-		transform: translateY(-90px);
-	}
-	35% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(-40px);
-	}
-	70% {
-		transform: translateY(0);
-	}
-	80% {
-		transform: translateY(-10px);
-	}
-	100% {
-		transform: translateY(0);
-	}
-}
-.lazy-services-container {
-	animation-play-state: paused;
-	visibility: hidden;
-	animation-play-state: paused;
-	animation: ballFall 3s ease-in-out;
-	opacity: 1;
-	animation-play-state: paused;
 }
