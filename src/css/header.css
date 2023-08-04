@@ -54,7 +54,7 @@
   .logo-svg-wrapper {
     overflow: hidden;
     position: relative;
-    border-radius: 8px;
+    border-radius: 5px;
     height: 80%;
   }
   .header-img {
@@ -78,24 +78,21 @@
   }
   .header-logo .logo-wave::before {
     border-radius: 40%;
-    background-color: #93c1c780;
+    background-color: #93c1c740;
     animation: wave 5s linear infinite;
   }
   a .logo-wave::before,
   a .logo-wave::after {
-    /* width: 52px;
-  height: 54px; */
-
-    width: 33px;
-    height: 33px;
+    width: 52px;
+    height: 48px;
     content: '';
     position: absolute;
-    top: 105px;
+    top: 120px;
     left: 32px;
     transform: translate(-50%, -75%);
   }
   a .logo-wave::after {
-    top: 110px;
+    top: 128px;
     left: 32px;
   }
 }
