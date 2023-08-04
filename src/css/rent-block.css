@@ -173,6 +173,11 @@
     font-size: 16px;
   }
 }
+/**
+  |============================
+  | BUTTON ANIMATION
+  |============================
+*/
 .send-btn {
   background-color: var(--dark-blue);
 
