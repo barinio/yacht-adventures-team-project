@@ -170,3 +170,14 @@
 		transform: rotateY(0deg);
 	}
 }
+@media (max-width: 365px) {
+	.flip-text {
+		font-size: 14px;
+	}
+	.back {
+		padding: 15px 20px;
+	}
+	.flip-title {
+		margin-bottom: 7px;
+	}
+}
