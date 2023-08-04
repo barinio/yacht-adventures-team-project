@@ -94,6 +94,7 @@
   a .logo-wave::after {
     top: 128px;
     left: 32px;
+    /* For lower */
   }
 }
 
