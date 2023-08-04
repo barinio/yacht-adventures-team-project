@@ -526,6 +526,28 @@
   }
 }
 
+@keyframes ballFall {
+  0% {
+    opacity: 0;
+    transform: translateY(-90px);
+  }
+  35% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .animate-in.animationDelay,
 .animate-out.animationDelay {
   animation-delay: 0.4s;
