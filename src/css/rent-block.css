@@ -211,6 +211,7 @@
   border: 2px solid var(--dark-blue);
   border-radius: 50%;
   transition: all 1s ease-in-out;
+  top: 12px;
 }
 
 @media only screen and (min-width: 768px) {
