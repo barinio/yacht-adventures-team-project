@@ -61,7 +61,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--light-green);
+  color: var(--white-text);
 }
 .header-li:hover .header-menu-link,
 .header-li:focus .header-menu-link {
