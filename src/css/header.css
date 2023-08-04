@@ -44,9 +44,69 @@
 .header-logo:focus {
   color: var(--light-green);
 }
-.header-img {
-  width: 18px;
-  height: 18px;
+/**
+  |============================
+  | HEADER IMG
+  |============================
+*/
+
+@media (min-width: 1280px) {
+  .logo-svg-wrapper {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    height: 80%;
+  }
+  .header-img {
+    width: 18px;
+    height: 18px;
+  }
+  .header-logo .logo-wave {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: -20px;
+    top: -58px;
+    transition: 0.4s;
+  }
+  .header-logo .logo-wave::after {
+    border-radius: 40%;
+    background-color: #93abae6e;
+    animation: wave 10s linear infinite;
+  }
+  .header-logo .logo-wave::before {
+    border-radius: 40%;
+    background-color: #93c1c780;
+    animation: wave 5s linear infinite;
+  }
+  a .logo-wave::before,
+  a .logo-wave::after {
+    /* width: 52px;
+  height: 54px; */
+
+    width: 33px;
+    height: 33px;
+    content: '';
+    position: absolute;
+    top: 105px;
+    left: 32px;
+    transform: translate(-50%, -75%);
+  }
+  a .logo-wave::after {
+    top: 110px;
+    left: 32px;
+  }
+}
+
+@keyframes logo-wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
 }
 @media (min-width: 768px) {
   .header-img {

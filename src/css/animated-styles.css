@@ -551,12 +551,13 @@
   -o-animation-name: moveUp;
   animation-name: moveUp;
 }
-
-.floating {
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+@media only screen and (min-width: 1280px) {
+  .floating {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 }
 
 @keyframes floating {
@@ -564,7 +565,7 @@
     transform: translate(0, 0px);
   }
   65% {
-    transform: translate(0, 7px);
+    transform: translate(0, 3px);
   }
   to {
     transform: translate(0, -0px);
