@@ -1,7 +1,3 @@
-let prevBtn = document.querySelector('.swiper-button-prev');
-let nextBtn = document.querySelector('.swiper-button-next');
-let listEl = document.querySelector('.yachts-block__card-list');
-
 var swiper = new Swiper('.swiper', {
   slidesPerView: getSlidesPerView(),
   direction: getDirection(),
@@ -33,10 +29,3 @@ function getSlidesPerView() {
     return 1;
   }
 }
-
-nextBtn.addEventListener('click', onNextBtnChange);
-function onNextBtnChange() {
-  listEl.style.gap = '12px';
-}
-prevBtn.addEventListener('click', onPrevBtnChange);
-function onPrevBtnChange() {}
