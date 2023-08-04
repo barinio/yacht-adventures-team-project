@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // Trigger CSS animations on scroll.
 // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
 
@@ -5,12 +6,14 @@
 // elements scroll below the fold again?
 // --> Check https://codepen.io/bramus/pen/vKpjNP
 
+=======
+>>>>>>> Stashed changes
 jQuery(function ($) {
-  // Function which adds the 'animated' class to any '.animatable' in view
   var doAnimations = function () {
     // Calc current offset and get all animatables
     var offset = $(window).scrollTop() + $(window).height(),
       $animatables = $('.animatable');
+<<<<<<< Updated upstream
 
     // Unbind scroll handler if we have no animatables
     if ($animatables.length == 0) {
@@ -18,6 +21,11 @@ jQuery(function ($) {
     }
 
     // Check all animatables and animate them if necessary
+=======
+    if ($animatables.length == 0) {
+      $(window).off('scroll', doAnimations);
+    }
+>>>>>>> Stashed changes
     $animatables.each(function (i) {
       var $animatable = $(this);
       if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -25,8 +33,6 @@ jQuery(function ($) {
       }
     });
   };
-
-  // Hook doAnimations on scroll, and trigger a scroll
   $(window).on('scroll', doAnimations);
   $(window).trigger('scroll');
 });

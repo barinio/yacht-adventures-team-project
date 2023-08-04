@@ -32,8 +32,11 @@
   -o-animation-play-state: running;
   animation-play-state: running;
 }
+<<<<<<< Updated upstream
 
 /* CSS Animations (extracted from http://glifo.uiparade.com/) */
+=======
+>>>>>>> Stashed changes
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
