@@ -32,11 +32,6 @@
   -o-animation-play-state: running;
   animation-play-state: running;
 }
-<<<<<<< Updated upstream
-
-/* CSS Animations (extracted from http://glifo.uiparade.com/) */
-=======
->>>>>>> Stashed changes
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -555,4 +550,23 @@
   -moz-animation-name: moveUp;
   -o-animation-name: moveUp;
   animation-name: moveUp;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 7px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }
