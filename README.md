@@ -8,6 +8,8 @@
 
 ## Наша команда
 
+> Artem Severin - `Ментор`.
+
 - **Ivan Barei** - `Team Lead`.
 - **Taras Popovych** - `Scrum Master`.
 - **Anna Fedorova** - `Учасник`.
@@ -17,5 +19,3 @@
 - **Iryna Derevianska** - `Учасник`.
 - **Maria Masyk** - `Учасник`.
 - **Oleksandr Kyslov** - `Учасник`.
-
-> Artem Severin - `Ментор`.
