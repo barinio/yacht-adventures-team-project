@@ -12,10 +12,10 @@
 
 - **Ivan Barei** — `Team Lead`.
 - **Taras Popovych** — `Scrum Master`.
-- **Yelyzaveta Shatrova** — `Учасник`.
-- **Anna Fedorova** — `Учасник`.
-- **Anna Bondarenko** — `Учасник`.
-- **Maria Dufanets** — `Учасник`.
-- **Iryna Derevianska** — `Учасник`.
-- **Maria Masyk** — `Учасник`.
-- **Oleksandr Kyslov** — `Учасник`.
+- **Yelyzaveta Shatrova** — `Розробник`.
+- **Anna Fedorova** — `Розробник`.
+- **Anna Bondarenko** — `Розробник`.
+- **Maria Dufanets** — `Розробник`.
+- **Iryna Derevianska** — `Розробник`.
+- **Maria Masyk** — `Розробник`.
+- **Oleksandr Kyslov** — `Розробник`.
