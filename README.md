@@ -19,3 +19,6 @@
 - **Iryna Derevianska** — `Розробник`.
 - **Maria Masyk** — `Розробник`.
 - **Oleksandr Kyslov** — `Розробник`.
+
+Trello проєкту:
+[trello](https://trello.com/b/64ubVU1c/yacht-adventures)
